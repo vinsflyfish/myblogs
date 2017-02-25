@@ -2,7 +2,13 @@
 1. install should with python-dev, for that need include header. Without which, install.py will run with exception
 2. you need configure file 
 
-## .ycm_extra_conf.py 文件配置
+## for macos
+1. install macvim by homebrew (before should brew upgrade / brew update)
+2. modify .bashrc add alias vim="mvim -v"
+3. install youcompleteme by vundle 
+4. change dir to .vim/vundle/YouCompleteMe/
+5. run ./install.py --clang or --golang options (clang should run brew install CMake for semantic support)
+6. copy ycm_extra_conf.py to ~/. and then modify vim add let ycm_global_ycm_extra_conf=.ycm_extra_conf.py
 ```
 # 配置自定义目录
 '-I',

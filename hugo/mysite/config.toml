@@ -1,0 +1,37 @@
+baseUrl="https://vinsflyfish.github.io"
+languageCode = "zh-cn"
+title = "Lufy's Blog"
+paginate = "10" # Number of posts per page
+theme = "Mainroad"
+
+[Author] # Used in authorbox
+    name = "Lufy"
+    bio = "游戏后台开发，关注一点分布式系统，关注一点go~"
+    avatar = "img/avatar.jpg"
+
+[Params]
+    subtitle = "独立的思考着，尝试着能看到一点点未来" # Subtitle of your site. Used in site header
+    description = " 一些杂乱的经验" # Description of your site. Used in meta description
+    opengraph = true # Enable OpenGraph if true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true # Show authorbox at bottom of pages if true
+    post_navigation = true # Show post navigation at bottom of pages if true
+    postSections = ["posts","news"] # the section pages to show on home page and the "Recent articles" widget
+    dateformat = "2006-01-02" # change the format of dates
+
+[Params.widgets]
+    search = false # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+    # Enable "Social" widget, if any of "social_*" set a value
+    # social_facebook = "none"
+    # social_twitter = "none"
+    # social_linkedin = "none"
+    social_github = "vinsflyfish"
+    social_email = "vins.napoleon@gmail.com"
+    # social_google_plus = "vins.napoleon"
